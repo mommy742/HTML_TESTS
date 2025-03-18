@@ -7,6 +7,50 @@
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<input type="checkbox" id="my-toggle">
 		<label for="my-toggle">toggle me</label>
     <button onclick="changeCol()">Click me</button>
@@ -16,10 +60,23 @@
 				if ( document.getElementById("my-toggle").checked == true ) {
 					var bgColor = "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
 					document.body.style.background = bgColor;
-				}
+				} 
 				setTimeout( changeCol, 100 );
 			}
      };
+//	 let el = document.getElementsByClassName('rotate');
+//	 el.style.setProperty('--rand', Math.random());
+	const testElements = document.getElementsByClassName("rotate");
+	for (let i = 0; i < testElements.length; i++) {
+		testElements[i].style.setProperty('--rand', Math.random()*100 );
+		testElements[i].style.setProperty('--rand2', Math.random()*10 );
+		testElements[i].style.setProperty('--rand3', Math.random()*20 );
+		// Access each element using elements[i]
+		// Perform operations on each element
+    }
+//	const testDivs = testElements.forEach(
+//		(testElement) => testElement.style.setProperty('--rand', Math.random(100) )
+//	);
     </script>
 </body>
 </html>
