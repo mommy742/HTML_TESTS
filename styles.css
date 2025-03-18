@@ -1,4 +1,11 @@
 
+.box {
+  background-color: lightgrey;
+  border: 2px solid green;
+  padding: 2px;
+  margin: 2px;
+}
+
 .rotate {
 	--rand: 0;
 	transform-origin: var(--rand) var(--rand);

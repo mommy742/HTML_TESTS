@@ -2,6 +2,10 @@
 <link rel="stylesheet" href="styles.css">
 <html>
 <body>
+	<details>
+		<summary>This content is visible at all times</summary>
+		<p class="box">This content is only visible when expanded</p>
+	</details>
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
