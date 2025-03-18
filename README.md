@@ -7,7 +7,7 @@
 
    <script>
      function changeCol() {
-         document.getElementById("myDiv").style.background = "yellow";
+         document.getElementById("myDiv").style.background = Math.floor(Math.random()*16777215).toString(16); // https://stackoverflow.com/a/74280677/10256442
      }
     </script>
 </body>
