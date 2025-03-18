@@ -7,18 +7,19 @@
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<input type="checkbox" id="my-toggle">
+		<label for="my-toggle">toggle me</label>
     <button onclick="changeCol()">Click me</button>
    <script>
      function changeCol() {
-		for (var i = 0; i < 10; i++) {
-			(function(i){
-				setTimeout(function(){
+			if ( document.getElementById("my-toggle").checked == true ) {
+				if ( document.getElementById("my-toggle").checked == true ) {
 					var bgColor = "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
 					document.body.style.background = bgColor;
-				}, 1000 * i);
-			}(i));
-		}
-     }
+				}
+				setTimeout( changeCol, 100 );
+			}
+     };
     </script>
 </body>
 </html>
