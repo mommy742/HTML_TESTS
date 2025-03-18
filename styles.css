@@ -1,5 +1,10 @@
+
 .rotate {
-  animation: rotation 8s infinite linear;
+	--rand: 0;
+	transform-origin: var(--rand) var(--rand);
+	animation: rotation infinite linear;
+	animation-duration: calc(var(--rand2)*1s);
+	animation-delay: calc(var(--rand3)*1s);
 }
 
 @keyframes rotation {
