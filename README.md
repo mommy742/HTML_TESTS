@@ -7,7 +7,8 @@
 
    <script>
      function changeCol() {
-         document.getElementById("myDiv").style.background = Math.floor(Math.random()*16777215).toString(16); // https://stackoverflow.com/a/74280677/10256442
+            var bgColor = "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
+            document.body.style.background = bgColor; // https://www.w3resource.com/javascript-exercises/javascript-math-exercise-40.php
      }
     </script>
 </body>
