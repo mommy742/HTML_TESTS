@@ -2,8 +2,57 @@
 <link rel="stylesheet" href="styles.css">
 <html>
 <body>
-    <div id="myDiv" style="background:red;height: 200px;width: 100px;">
-    </div>
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
+	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
 	<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
@@ -69,7 +118,7 @@
 	const testElements = document.getElementsByClassName("rotate");
 	for (let i = 0; i < testElements.length; i++) {
 		testElements[i].style.setProperty('--rand', Math.random()*100 );
-		testElements[i].style.setProperty('--rand2', Math.random()*10 );
+		testElements[i].style.setProperty('--rand2', Math.random()*3 );
 		testElements[i].style.setProperty('--rand3', Math.random()*20 );
 		// Access each element using elements[i]
 		// Perform operations on each element
