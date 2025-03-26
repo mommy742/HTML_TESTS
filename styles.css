@@ -1,4 +1,5 @@
 
+
 #wrapper {
   align-items: center;
   display: flex;
@@ -113,4 +114,29 @@
   to {
     transform: rotate(359deg);
   }
+}
+
+.rotate-sphere {
+	position: absolute;
+	width: 45em;
+	height: 45em;
+	padding: 0;
+	/*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+	border: dotted 10px;
+	border-radius: 50%;
+	margin: 0em auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ring-sphere {
+  animation: ring linear calc(var(--rand4)*1s) infinite;
+  animation-delay: calc(var(--rand4)*1s - 2s);
+}
+
+ @keyframes ring-sphere {
+
+   100% {
+     transform: rotate3d( calc(var(--rand1)), calc(var(--rand2)), calc(var(--rand3)), 359deg);
+   }
 }
