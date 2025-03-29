@@ -72,7 +72,7 @@
 	  <div class="item" style="--d:-8s">5</div>
 	  <div class="item" style="--d:-10s">6</div>
 	</div>
-	<div class="rotate-sphere" style="position:relative">
+	<div class="rotate-sphere" style="width: 50em;position:relative;height: 50em;">
 		<img src="http://i.imgur.com/dfZJ7FW.gif" class="sphere" style="position: absolute;"/>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
@@ -86,7 +86,7 @@
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
 	</div>
-	<div class="rotate-sphere" style="position:relative">
+	<div class="rotate-sphere" style="width: 50em;position:relative;height: 50em;">
 		<img src="http://i.imgur.com/dfZJ7FW.gif" class="sphere" style="position: absolute;"/>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
@@ -113,6 +113,44 @@
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
 		<div class="rotate-sphere ring-sphere rotates" style=""></div>
+	</div>
+	<div class="rotate-sphere1" style="width: 50em;position:relative;height: 50em;">
+		<img src="http://i.imgur.com/dfZJ7FW.gif" class="sphere" style="position: absolute;"/>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+		<div class="rotate-sphere1 ring-sphere rotates" style=""></div>
+	</div>
+	<div class="rotate-sphere1" style="width: 50em;position:relative;height: 50em;">
+		<img src="http://i.imgur.com/dfZJ7FW.gif" class="sphere" style="position: absolute;"/>
+		<div class="rotate-sphere1 ring-sphere rotates" style="">
+			<div class="rotate-sphere1 ring-sphere rotates" style="">
+				<div class="rotate-sphere1 ring-sphere rotates" style="">
+				
+				</div>
+			</div>
+		</div>
 	</div>
 	<div>
 		<img src="https://i.imgur.com/kDDFvUp.png" class="rotate" width="100" height="100" />
@@ -277,16 +315,27 @@
 		testElementsr[i].style.setProperty('--rand4', Math.random()*4 );
 		// Access each element using elements[i]
 		// Perform operations on each element
-   }
+	}
 	const testElementss = document.getElementsByClassName("rotates");
 	for (let i = 0; i < testElementss.length; i++) {
 		testElementss[i].style.setProperty('--rand1', Math.random()*1 );
 		testElementss[i].style.setProperty('--rand2', Math.random()*1 );
 		testElementss[i].style.setProperty('--rand3', Math.random()*1 );
 		testElementss[i].style.setProperty('--rand4', Math.random()*2 + 2);
+		testElementss[i].style.setProperty('--rand5', Math.random()*45);
 		// Access each element using elements[i]
 		// Perform operations on each element
-   }
+	}
+	const testElements1 = document.getElementsByClassName("rotate-sphere1");
+	for (let i = 0; i < testElementss.length; i++) {
+		testElementss[i].style.setProperty('--rand1', Math.random()*1 );
+		testElementss[i].style.setProperty('--rand2', Math.random()*1 );
+		testElementss[i].style.setProperty('--rand3', Math.random()*1 );
+		testElementss[i].style.setProperty('--rand4', Math.random()*2 + 2);
+		testElementss[i].style.setProperty('--rand5', Math.random()*45);
+		// Access each element using elements[i]
+		// Perform operations on each element
+	}
 //	const testDivs = testElements.forEach(
 //		(testElement) => testElement.style.setProperty('--rand', Math.random(100) )
 //	);
