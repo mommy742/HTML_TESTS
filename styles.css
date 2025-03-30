@@ -167,9 +167,9 @@
    }
 }
 
-#triangle-up {
-  width: 400px;
-  height: 400px;
-  background-color: magenta;
-  clip-path: polygon(75% 25%, 25% 50%, 75% 75%);
+.triangle-up {
+  position: absolute; 
+  fill: #ffffff00; 
+  transform: rotate3d(0,0,1), 359deg);
+  transform-origin: 50% 73%;
 }
