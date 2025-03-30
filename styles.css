@@ -166,3 +166,10 @@
      transform: rotate3d( calc(var(--rand1)), calc(var(--rand2)), calc(var(--rand3)), 359deg);
    }
 }
+
+#triangle-up {
+  width: 400px;
+  height: 400px;
+  background-color: magenta;
+  clip-path: polygon(75% 25%, 25% 50%, 75% 75%);
+}
